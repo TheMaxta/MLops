@@ -13,13 +13,12 @@ class InputData(BaseModel):
     feature3: float
     feature4: float
 
+best_run_id = "74dc55a290244e508bac99dc12cc2c42"
+
+mlflow.set_tracking_uri("http://127.0.0.1:5001")
+
+model = mlflow.sklearn.load_model("runs:/" + best_run_id + "/model")
 
 
-best_run = mlflow.search_runs(order_by=["metrics.accuracy desc"]).iloc[0]
-best_run_id = best_run.run_id
-best_model = mlflow.sklearn.load_model("runs:/" + best_run_id + "/model")
 
 
-
-
-mlflow.sklearn.load_model("runs:/" + best_run_id + "/model")

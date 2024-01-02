@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/maxmahlke/Desktop/SparkVids/mlOPs/src/mlruns/0/74dc55a290244e508bac99dc12cc2c42/artifacts
+end_time: 1704218681842
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 74dc55a290244e508bac99dc12cc2c42
+run_name: unleashed-bear-494
+run_uuid: 74dc55a290244e508bac99dc12cc2c42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704218680370
+status: 3
+tags: []
+user_id: maxmahlke
