@@ -39,7 +39,8 @@ Expand this guide into a comprehensive explanation of how to use these technolog
 ### MLflow:
 - To start the MLflow server, open a terminal tab and run: `mlflow ui`
 - Note: Keep the MLflow server running while executing MLflow commands in a separate tab.
-- If you encounter issues with port 5000 on a Mac (commonly blocked), you can specify a different port using: `mlflow ui --port <port_number>`
+- If you encounter issues with port 5000 on a Mac (commonly blocked), you can specify a different port using: `mlflow server --host 0.0.0.0 --port 5001`
+- If you encounter issues with port 5000 on a Mac (commonly blocked), you can specify a different port using: `mlflow ui --port 5001`
 - While the MLflow server is running, execute your MLflow-integrated Python script in another terminal tab to log and track experiments.
 
 ### Streamlit:
@@ -61,3 +62,18 @@ These are big steps and big tasks so breaking them up into smaller goals is smar
 
 I will likely be spending the majority of the next couple of days working with Kubernetes and Docker because these are complicated and expansive technologies that will be ever-present in the coming years of my career. This will be time well spent.
 
+
+
+### Explanation of the PATH Export Command
+
+The command `export PATH="/Users/maxmahlke/anaconda3/envs/myenv/bin:$PATH"` is used in Unix-like operating systems to modify the environment variable `PATH`. Here's a breakdown of what this command does:
+
+- `export`: This is a shell builtin in Bash and other Unix shells. It is used to set environment variables and make them available to future subprocesses.
+
+- `PATH`: `PATH` is an environment variable. It tells the shell where to look for executable files. When you type a command in the terminal, the shell searches the directories listed in your `PATH` in order to find an executable file with that name.
+
+- `"/Users/maxmahlke/anaconda3/envs/myenv/bin:$PATH"`: This sets the new value of the `PATH` variable. It has two parts:
+  - `/Users/maxmahlke/anaconda3/envs/myenv/bin`: This is the path to the `bin` directory of the `myenv` Conda environment. By placing this directory at the beginning of the `PATH`, it ensures that the executables in this directory (like Python) are used preferentially over other versions installed on the system.
+  - `$PATH`: This is the existing content of the `PATH` variable. By appending it to the new directory path, it ensures that all previously available commands remain accessible.
+
+In essence, this command prepends the specified directory (`/Users/maxmahlke/anaconda3/envs/myenv/bin`) to the existing `PATH`, giving priority to the executables in the specified Conda environment. This is particularly useful for ensuring that the Python version and any installed packages specific to the `myenv` environment are used in preference to those installed elsewhere on the system.

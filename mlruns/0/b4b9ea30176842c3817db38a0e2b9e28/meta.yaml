@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b4b9ea30176842c3817db38a0e2b9e28/artifacts
+end_time: 1704216148940
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b4b9ea30176842c3817db38a0e2b9e28
+run_name: dazzling-gnat-523
+run_uuid: b4b9ea30176842c3817db38a0e2b9e28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704216147011
+status: 3
+tags: []
+user_id: maxmahlke
