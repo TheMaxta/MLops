@@ -24,7 +24,7 @@ if st.button("Predict"):
     }
 
     # Make a POST request to the FastAPI model
-    model_url = "http://your-fastapi-model-url/predict/"  # Replace with your FastAPI model URL
+    model_url = "http://localhost:8000/predict/"  # Replace with your FastAPI model URL
     response = requests.post(model_url, json=input_data)
 
     if response.status_code == 200:

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/maxmahlke/Desktop/SparkVids/mlOPs/src/mlruns/0/39ea03867d714fa6a5221183d87754b2/artifacts
+end_time: 1704219527193
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 39ea03867d714fa6a5221183d87754b2
+run_name: luminous-duck-400
+run_uuid: 39ea03867d714fa6a5221183d87754b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704219525606
+status: 3
+tags: []
+user_id: maxmahlke
