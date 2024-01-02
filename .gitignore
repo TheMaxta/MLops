@@ -1,0 +1,24 @@
+# macOS system files
+.DS_Store
+
+# Editor files
+# e.g., .vscode/
+
+# Node modules
+# node_modules/
+
+# Build output
+# e.g., dist/
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Machine learning artifacts
+mlOPs/mlartifacts/
+mlOPs/mlruns/
+
+# Temporary files
+# e.g., .tmp/
