@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/5fe4bb83c40f48ae9b0334f64bc356fd/artifacts
+end_time: 1704317553115
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5fe4bb83c40f48ae9b0334f64bc356fd
+run_name: enthused-foal-460
+run_uuid: 5fe4bb83c40f48ae9b0334f64bc356fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704317551116
+status: 3
+tags: []
+user_id: maxmahlke
